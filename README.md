@@ -19,7 +19,6 @@ To change the values, change the follwing lines in the program
 n = 1079
 e = 43
 ciphertext = "996 894 379 631 894 82 379 852 631 677 677 194 893"
-c_values = list(map(int, ciphertext.split()))
 ```
 
 After Changing the values run the program (python3 rsa_decrypt.py) and it will give you:
