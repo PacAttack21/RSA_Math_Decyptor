@@ -10,6 +10,7 @@ e: This is the public exponent, part of the public key. It is used in the encryp
 c: This represents the ciphertext, which is the encrypted message. It’s a list of integers that have been produced using the public key during encryption. These integers need to be decrypted to reveal the original message.
 
 This would be an example of the inputs we need:
+
 ![image](https://github.com/user-attachments/assets/1481b7c0-64fe-49d8-8181-e34c910f038d)
 
 To change the values, change the follwing lines in the program
@@ -30,4 +31,5 @@ d: This is the private exponent (part of the private key)
 The decrypted message
 
 Output:
+
 ![RSA](https://github.com/user-attachments/assets/c0fa7792-8d45-4cf2-ab0c-7c51a9a8abe9)
